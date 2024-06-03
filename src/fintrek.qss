@@ -1,0 +1,93 @@
+QWidget{
+	background-color: #EDF7F6;
+	/* font-size: 24px; */
+	font-weight: normal;
+	font-style: normal;
+	font-family: Verdana;
+	color: black;
+}
+.header{
+	font-style: italic;
+	qproperty-alignment: AlignCenter;
+}
+QLabel#budget_label{
+	font-size: 24px;
+	font-weight: bold;
+}
+QLabel#remainder_label{
+	font-size: 24px;
+	font-weight: bold;
+	color: #7D80DA;
+}
+QLineEdit{
+	border: 2px solid white;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #EDF7F6;
+}
+QComboBox{
+	border: 2px solid white;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #EDF7F6;
+}
+QPushButton{
+	/* border: 2px solid black;
+	padding: 2px;
+	border-radius: 3px;
+	border-color: black; */
+	background-color: #223843;
+    color: white;
+}
+QPushButton:hover{
+    background-color: #7D80DA;
+}
+QPushButton:pressed{
+    background-color: #7D80DA;
+}
+QToolTip{
+	border: 2px solid white;
+	padding: 2px;
+	border-radius: 3px;
+	background-color: #EDF7F6;
+	color: black;
+}
+QCheckBox{
+	spacing: 5px;
+}
+QCheckBox::indicator{
+	width: 24px;
+	height: 24px;
+}
+QCheckBox::indicator:checked{
+	image: url("icons/checkbox_yes.png");
+}
+QCheckBox::indicator:unchecked{
+	image: url("icons/checkbox_no.png");
+}
+QMenuBar {
+    background: #223843;
+    color: #fff;
+    border-radius: 5px;
+}
+QMenuBar::item {
+    background: #223843;
+    color: #fff;
+}
+QMenuBar::item::selected {
+    background: #7D80DA;
+    color: #fff;
+}
+QMenu {
+    background: #223843;
+    color: #fff;
+    border-radius: 5px;
+}
+QMenu::item {
+    background: #223843;
+    color: #fff;
+}
+QMenu::item::selected {
+    background: #7D80DA;
+    color: #fff;
+}
